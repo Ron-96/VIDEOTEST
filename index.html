@@ -1,0 +1,38 @@
+<html>
+<head>
+  <style type="text/css">
+    body {
+      overflow-x: hidden;
+      font-family: Helvetica, sans-serif;
+    }
+
+    .video-container {
+      width: 100%;
+      height: 50vh; /* Half the viewport height */
+      background-color: black;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background-color: black;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="video-container">
+  <video autoplay controls loop muted>
+    <source src="https://harman.widen.net/content/h4iebtlbus/mp4/30-SECONDS-CLEAN.mov" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+</body>
+</html>
